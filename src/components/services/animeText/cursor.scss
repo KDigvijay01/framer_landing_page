@@ -1,0 +1,26 @@
+@import "../../../app.scss";
+
+.inline-block {
+    display: inline-block;
+  }
+  
+  .h-5 {
+    height: 4rem; /* 5/4 */
+    @include mobile{
+      height: 1.9rem;
+    }
+  }
+  
+  .w-1px {
+    width: 3px;
+  }
+  
+  .translate-y-1 {
+    transform: translateY(0.25rem); /* 1/4 */
+  }
+  
+  .bg-slate-900 {
+    background: gray;
+    // #1d1e2c;
+  }
+  
